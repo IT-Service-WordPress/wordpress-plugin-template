@@ -11,15 +11,15 @@ Domain Path:		/languages/
 GitHub Plugin URI: 	https://github.com/sergey-s-betke/WordPress-plugin-template
 */
 
-require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_inc.php' );
-require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_plugin_base.php' );
-require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_setting_base.php' );
-require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_setting_pluginsetting.php' );
-require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_setting_validator_base.php' );
-require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_plugin_part_load_admin.php' );
-// require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_textdomain_plugin.php' );
-
 use \WPF\v1 as WPF;
+
+require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_inc.php' );
+WPF\Loader::_require_once( 'wpf_plugin_base.php' );
+WPF\Loader::_require_once( 'wpf_setting_base.php' );
+WPF\Loader::_require_once( 'wpf_setting_pluginsetting.php' );
+WPF\Loader::_require_once( 'wpf_setting_validator_base.php' );
+WPF\Loader::_require_once( 'wpf_plugin_part_load_admin.php' );
+// WPF\Loader::_require_once( 'wpf_textdomain_plugin.php' );
 
 // new WPF\TextDomain\Plugin( 'wordpress-plugin-template' );
 

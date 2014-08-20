@@ -3,25 +3,25 @@
 WordPress-plugin-template plugin admin part.
 */
 
-//require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_plugin_part_base.php' );
-require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_plugin_part_advanced.php' );
-// require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_compatibility_validators.php' );
-// require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_compatibility_validators_on.php' );
-// require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_compatibility_version_wp.php' );
-// require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_compatibility_version_php.php' );
-require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_textdomain_plugin.php' );
-require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_textdomain_wpf.php' );
-// require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_plugin_component_dynamiccontroller.php' );
-// require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_plugin_component_installer.php' );
-require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_gui_setting_page_pluginoptions.php' );
-require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_gui_setting_page_section_base.php' );
-require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_gui_setting_page_control_input.php' );
-// require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_gui_setting_page_component_help_base.php' );
-// require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_gui_setting_page_component_help_sidebar.php' );
-// require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_gui_setting_page_component_help_tab.php' );
-// require_once ( 'wpf' . DIRECTORY_SEPARATOR . 'wpf_gui_setting_page_component_help_plugindata.php' );
-
 use \WPF\v1 as WPF;
+
+// WPF\Loader::_require_once( 'wpf_plugin_part_base.php' );
+WPF\Loader::_require_once( 'wpf_plugin_part_advanced.php' );
+// WPF\Loader::_require_once( 'wpf_compatibility_validators.php' );
+// WPF\Loader::_require_once( 'wpf_compatibility_validators_on.php' );
+// WPF\Loader::_require_once( 'wpf_compatibility_version_wp.php' );
+// WPF\Loader::_require_once( 'wpf_compatibility_version_php.php' );
+WPF\Loader::_require_once( 'wpf_textdomain_plugin.php' );
+WPF\Loader::_require_once( 'wpf_textdomain_wpf.php' );
+// WPF\Loader::_require_once( 'wpf_plugin_component_dynamiccontroller.php' );
+// WPF\Loader::_require_once( 'wpf_plugin_component_installer.php' );
+WPF\Loader::_require_once( 'wpf_gui_setting_page_pluginoptions.php' );
+WPF\Loader::_require_once( 'wpf_gui_setting_page_section_base.php' );
+WPF\Loader::_require_once( 'wpf_gui_setting_page_control_input.php' );
+// WPF\Loader::_require_once( 'wpf_gui_setting_page_component_help_base.php' );
+// WPF\Loader::_require_once( 'wpf_gui_setting_page_component_help_sidebar.php' );
+// WPF\Loader::_require_once( 'wpf_gui_setting_page_component_help_tab.php' );
+// WPF\Loader::_require_once( 'wpf_gui_setting_page_component_help_plugindata.php' );
 
 new WPF\TextDomain\WPF( WPF\WPF_ADMINTEXTDOMAIN );
 
