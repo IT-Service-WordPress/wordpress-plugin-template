@@ -52,6 +52,10 @@ This section describes how to install the plugin and get it working.
 3. Upload the `plugin-name` directory to the `/wp-content/plugins/` directory
 4. Activate the plugin in the Plugin dashboard
 
+= Use shared WPF installation = 
+
+Please, read [installation manual](https://github.com/IT-Service-WordPress/wpf-v1-mu-plugin/wiki/).
+
 == Frequently Asked Questions ==
 
 = Requirements? =
